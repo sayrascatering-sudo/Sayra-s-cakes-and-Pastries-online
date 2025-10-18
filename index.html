@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sayra's Catering | Wedding & Birthday Cakes in Blantyre</title>
+<meta name="description" content="Sayra's Catering provides quality wedding and birthday cakes in Blantyre, including Palm Size Bento Cakes, Heart Shaped Cakes, Tall Bento Cakes, and Mini Cakes. Order online via WhatsApp.">
+<meta name="keywords" content="wedding cakes, birthday cakes, bento cakes, heart shaped cakes, tall bento cakes, mini cakes, Blantyre cakes, cake delivery">
+<meta name="author" content="Sayra's Catering">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Sayra's Catering",
+  "image": "https://i.imgur.com/6savvjP.jpeg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Blantyre",
+    "addressCountry": "Malawi"
+  },
+  "telephone": "+265997016272",
+  "url": "https://yourwebsite.com",
+  "sameAs": ["https://www.facebook.com/HealthyLivingTips"],
+  "servesCuisine": "Bakery",
+  "menu": ["Palm Size Bento Cakes","Heart Shaped Cakes","Palm Size Tall Bento Cakes","Mini Cakes"]
+}
+</script>
+
+<style>
+:root { --primary:#800080; --secondary:#fff0f5; --accent:#c0c0c0; --text:#333; }
+body { font-family: 'Poppins', sans-serif; background-color: var(--secondary); margin:0; color: var(--text); }
+header { display:flex; align-items:center; background:var(--primary); padding:15px 25px; box-shadow:0 4px 15px rgba(0,0,0,0.3); position:sticky; top:0; z-index:1000; }
+header img { width:90px; height:90px; border-radius:50%; object-fit:cover; }
+header p { margin-left:20px; font-size:16px; font-weight:600; flex:1; color:#FFD700; text-shadow:1px 1px 2px rgba(0,0,0,0.3); }
+.menu-categories { display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin:15px; background:linear-gradient(to right,#fff0f5,#e6cfe6); padding:10px 0; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.1); }
+.menu-categories .menu-item { text-decoration:none; color:var(--primary); font-weight:600; background:white; padding:10px 20px; border-radius:12px; transition:all 0.3s; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+.menu-categories .menu-item:hover { background:var(--primary); color:white; transform:translateY(-3px); }
+.sidebar { position:fixed; right:0; top:150px; width:220px; background:linear-gradient(135deg,#fff0f5,#e6cfe6); box-shadow:0 8px 20px rgba(0,0,0,0.25); border-radius:15px 0 0 15px; padding:20px; display:flex; flex-direction:column; gap:15px; text-align:center; transition:transform 0.3s; z-index:1001; }
+.sidebar h3 { margin:0; font-size:16px; color:var(--primary); border-bottom:2px solid var(--accent); padding-bottom:8px; }
+.sidebar a { text-decoration:none; color:var(--primary); font-weight:600; background:white; padding:10px; border-radius:12px; display:flex; align-items:center; justify-content:center; gap:8px; transition:all 0.3s; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+.sidebar a:hover { background:var(--accent); color:white; transform:translateY(-2px); }
+.sidebar .whatsapp-btn { background:#25D366; color:white; font-weight:bold; box-shadow:0 5px 15px rgba(0,0,0,0.3); }
+.sidebar .whatsapp-btn:hover { background:#1ebe57; transform:scale(1.05); }
+main { margin:30px 250px 30px 30px; }
+h1 { display:none; }
+h2 { text-align:center; color:var(--primary); border-bottom:2px solid var(--accent); padding-bottom:5px; margin-bottom:20px; }
+.cake-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:20px; }
+.cake-card { background:white; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.15); text-align:center; padding:15px; transition:transform 0.3s; }
+.cake-card:hover { transform:scale(1.03); }
+.cake-card img { width:100%; height:200px; border-radius:10px; object-fit:cover; }
+.price { color:var(--primary); font-weight:600; margin-top:10px; }
+.order-btn, .inquiry-btn { display:inline-block; margin-top:8px; background:var(--primary); color:white; padding:8px 15px; border-radius:8px; text-decoration:none; transition:all 0.3s; }
+.order-btn:hover, .inquiry-btn:hover { background:var(--accent); transform:scale(1.05); }
+footer { text-align:center; margin-top:40px; padding:15px; background:var(--primary); color:white; font-weight:600; }
+#floatingWhatsApp { position:fixed; bottom:20px; right:20px; z-index:1002; background:#25D366; color:white; border-radius:50%; width:60px; height:60px; display:flex; align-items:center; justify-content:center; font-size:30px; box-shadow:0 4px 15px rgba(0,0,0,0.3); text-decoration:none; transition:transform 0.3s; }
+#floatingWhatsApp:hover { transform:scale(1.1); }
+@media(max-width:768px){header{flex-direction:column;text-align:center;}header p{margin-left:0;margin-top:10px;}main{margin:10px;}.sidebar{transform:translateX(100%);}.sidebar.show{transform:translateX(0);}#sidebarToggle{display:block;}}
+#sidebarToggle{display:none;position:fixed;bottom:90px;right:20px;background:var(--primary);color:white;border:none;border-radius:50%;width:50px;height:50px;font-size:24px;box-shadow:0 4px 15px rgba(0,0,0,0.3);}
+</style>
+</head>
+<body>
+
+<h1>Sayra's Catering: Wedding & Birthday Cakes in Blantyre</h1>
+
+<header>
+  <img src="https://i.imgur.com/6savvjP.jpeg" alt="Sayra's Catering Logo">
+  <p>We provide quality Wedding & Birthday Cakes and catering services for all occasions.</p>
+</header>
+
+<nav class="menu-categories">
+  <a href="#palm" class="menu-item">🍰 Palm Size Bento Cakes</a>
+  <a href="#heart" class="menu-item">❤️ Heart Shaped Cakes</a>
+  <a href="#tall" class="menu-item">🎂 Palm Size Tall Bento Cakes</a>
+  <a href="#mini" class="menu-item">🧁 Mini Cakes</a>
+</nav>
+
+<div class="sidebar">
+  <h3>Cake Categories</h3>
+  <a href="#palm">🍰 Palm Size Bento</a>
+  <a href="#heart">❤️ Heart Shaped</a>
+  <a href="#tall">🎂 Tall Bento</a>
+  <a href="#mini">🧁 Mini Cakes</a>
+  <a href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I%20would%20like%20to%20ask%20about%20your%20cakes%20and%20pricing.%20Please%20assist%20me%20%F0%9F%99%82" class="whatsapp-btn" target="_blank">📱 Inquire on WhatsApp</a>
+</div>
+
+<button id="sidebarToggle">☰</button>
+<a href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I'm%20interested%20in%20your%20cakes%20and%20services.%20Please%20assist%20me%20%F0%9F%99%82" target="_blank" id="floatingWhatsApp">📱</a>
+
+<main>
+
+<!-- Palm Size Bento Cakes -->
+<section id="palm">
+<h2>Palm Size Bento Cakes - 10,000 MWK</h2>
+<div class="cake-grid">
+  <div class="cake-card">
+    <img src="https://i.imgur.com/RrxpQOZ.jpeg" alt="Pink Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I%20would%20like%20to%20inquire%20about%20this%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/RrxpQOZ.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/RrxpQOZ.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/U7jmlLZ.jpeg" alt="Chocolate Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20May%20I%20ask%20more%20about%20this%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/U7jmlLZ.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/U7jmlLZ.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/YigLFnp.jpeg" alt="Vanilla Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I%20would%20like%20to%20know%20more%20about%20this%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/YigLFnp.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/YigLFnp.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/ONtmF6C.jpeg" alt="Strawberry Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Good%20day%20Sayra%27s%20Catering!%20Could%20you%20please%20tell%20me%20more%20about%20this%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/ONtmF6C.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/ONtmF6C.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/VieY7OL.jpeg" alt="Caramel Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello!%20I%27d%20love%20to%20inquire%20about%20this%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/VieY7OL.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/VieY7OL.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/2acdeSG.jpeg" alt="Coffee Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20Can%20you%20please%20share%20more%20details%20about%20this%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/2acdeSG.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/2acdeSG.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/9hS6nKW.jpeg" alt="Rainbow Palm Size Bento Cake">
+    <p class="price">10,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%27m%20interested%20to%20learn%20more%20about%20this%20Rainbow%20Palm%20Size%20Bento%20Cake:%20https://i.imgur.com/9hS6nKW.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Rainbow%20Palm%20Size%20Bento%20Cake%20please:%20https://i.imgur.com/9hS6nKW.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+</div>
+</section>
+
+<!-- Heart Shaped Cakes -->
+<section id="heart">
+<h2>Heart Shaped Cakes - 12,000 MWK</h2>
+<div class="cake-grid">
+  <div class="cake-card">
+    <img src="https://i.imgur.com/f02Frmb.jpeg" alt="Red Heart Shaped Cake">
+    <p class="price">12,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20May%20I%20inquire%20about%20this%20Heart%20Shaped%20Cake:%20https://i.imgur.com/f02Frmb.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Heart%20Shaped%20Cake%20please:%20https://i.imgur.com/f02Frmb.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/dkeVQdo.jpeg" alt="Pink Heart Shaped Cake">
+    <p class="price">12,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello!%20Could%20you%20please%20tell%20me%20more%20about%20this%20Heart%20Shaped%20Cake:%20https://i.imgur.com/dkeVQdo.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Heart%20Shaped%20Cake%20please:%20https://i.imgur.com/dkeVQdo.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/DteUAAa.jpeg" alt="Chocolate Heart Shaped Cake">
+    <p class="price">12,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%27d%20like%20to%20inquire%20about%20this%20Chocolate%20Heart%20Cake:%20https://i.imgur.com/DteUAAa.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!%20I%20would%20like%20to%20order%20this%20Chocolate%20Heart%20Cake%20please:%20https://i.imgur.com/DteUAAa.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/MSZEPfn.jpeg" alt="Vanilla Heart Shaped Cake">
+    <p class="price">12,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20Could%20you%20share%20details%20about%20this%20Vanilla%20Heart%20Cake:%20https://i.imgur.com/MSZEPfn.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Vanilla%20Heart%20Cake%20please:%20https://i.imgur.com/MSZEPfn.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+</div>
+</section>
+
+<!-- Palm Size Tall Bento Cakes -->
+<section id="tall">
+<h2>Palm Size Tall Bento Cakes - 25,000 MWK</h2>
+<div class="cake-grid">
+  <div class="cake-card">
+    <img src="https://i.imgur.com/2qTlowC.jpeg" alt="Chocolate Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello!%20Can%20I%20please%20inquire%20about%20this%20Tall%20Bento%20Cake:%20https://i.imgur.com/2qTlowC.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/2qTlowC.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/K9XCNwp.jpeg" alt="Pink Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%27d%20like%20to%20know%20more%20about%20this%20Tall%20Bento%20Cake:%20https://i.imgur.com/K9XCNwp.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/K9XCNwp.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/jwAifcw.jpeg" alt="Vanilla Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi!%20Could%20you%20please%20share%20more%20about%20this%20Tall%20Bento%20Cake:%20https://i.imgur.com/jwAifcw.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello!%20I%20would%20like%20to%20place%20an%20order%20for%20this%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/jwAifcw.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/ewJYgbL.jpeg" alt="Strawberry Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%27d%20love%20to%20inquire%20about%20this%20Strawberry%20Tall%20Bento%20Cake:%20https://i.imgur.com/ewJYgbL.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Strawberry%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/ewJYgbL.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/ea34hDr.jpeg" alt="Rainbow Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20Could%20you%20tell%20me%20more%20about%20this%20Rainbow%20Tall%20Bento%20Cake:%20https://i.imgur.com/ea34hDr.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Rainbow%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/ea34hDr.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/EhOwtHz.jpeg" alt="Caramel Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi!%20I%27d%20like%20to%20inquire%20about%20this%20Caramel%20Tall%20Bento%20Cake:%20https://i.imgur.com/EhOwtHz.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello!%20I%20would%20like%20to%20order%20this%20Caramel%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/EhOwtHz.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/wWjITCZ.jpeg" alt="Coffee Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20May%20I%20know%20more%20about%20this%20Coffee%20Tall%20Bento%20Cake:%20https://i.imgur.com/wWjITCZ.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Coffee%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/wWjITCZ.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/VGFaORY.jpeg" alt="Vanilla Tall Bento Cake">
+    <p class="price">25,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%20would%20like%20to%20inquire%20about%20this%20Vanilla%20Tall%20Bento%20Cake:%20https://i.imgur.com/VGFaORY.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Vanilla%20Tall%20Bento%20Cake%20please:%20https://i.imgur.com/VGFaORY.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+</div>
+</section>
+
+<!-- Mini Cakes -->
+<section id="mini">
+<h2>Mini Cakes - 35,000 MWK</h2>
+<div class="cake-grid">
+  <div class="cake-card">
+    <img src="https://i.imgur.com/gqAYw9W.jpeg" alt="Mini Cake 1">
+    <p class="price">35,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20Could%20you%20please%20tell%20me%20more%20about%20this%20Mini%20Cake:%20https://i.imgur.com/gqAYw9W.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Mini%20Cake%20please:%20https://i.imgur.com/gqAYw9W.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/l504uFX.jpeg" alt="Mini Cake 2">
+    <p class="price">35,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi!%20I%27d%20like%20to%20inquire%20about%20this%20Mini%20Cake:%20https://i.imgur.com/l504uFX.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Mini%20Cake%20please:%20https://i.imgur.com/l504uFX.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/2dcY2DU.jpeg" alt="Mini Cake 3">
+    <p class="price">35,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi!%20Could%20you%20please%20share%20more%20info%20about%20this%20Mini%20Cake:%20https://i.imgur.com/2dcY2DU.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello!%20I%20would%20like%20to%20order%20this%20Mini%20Cake%20please:%20https://i.imgur.com/2dcY2DU.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/QnRiJaf.jpeg" alt="Mini Cake 4">
+    <p class="price">35,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%27d%20love%20to%20ask%20more%20about%20this%20Mini%20Cake:%20https://i.imgur.com/QnRiJaf.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Mini%20Cake%20please:%20https://i.imgur.com/QnRiJaf.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/eBMEsr8.jpeg" alt="Mini Cake 5">
+    <p class="price">35,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20Could%20you%20share%20details%20about%20this%20Mini%20Cake:%20https://i.imgur.com/eBMEsr8.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Mini%20Cake%20please:%20https://i.imgur.com/eBMEsr8.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+
+  <div class="cake-card">
+    <img src="https://i.imgur.com/adJxeUs.jpeg" alt="Mini Cake 6">
+    <p class="price">35,000 MWK</p>
+    <a class="inquiry-btn" href="https://wa.me/265997016272?text=Hi%20Sayra%27s!%20I%27d%20like%20to%20inquire%20about%20this%20Mini%20Cake:%20https://i.imgur.com/adJxeUs.jpeg" target="_blank">💬 Inquire</a>
+    <a class="order-btn" href="https://wa.me/265997016272?text=Hello%20Sayra%27s!%20I%20would%20like%20to%20order%20this%20Mini%20Cake%20please:%20https://i.imgur.com/adJxeUs.jpeg" target="_blank">🛒 Order on WhatsApp</a>
+  </div>
+</div>
+</section>
+
+</main>
+
+<footer>
+ Location :Blantyre opp Dovic Hotel, Chirimba Rd, Malawi| 
+<div class="contact-icons" style="text-align:center; margin-top:15px;">
+  <!-- WhatsApp Icon -->
+  <a href="https://wa.me/265997016272?text=Hello%20Sayra%27s%20Catering!" target="_blank" style="margin-right:10px;">
+    <img src="https://i.imgur.com/NpBq5At.png" alt="WhatsApp" style="width:40px; height:40px;">
+  </a>
+
+  <!-- Facebook Icon -->
+  <a href="https://www.facebook.com/share/1BXGPuYirF/?mibextid=wwXIfr" target="_blank">
+    <img src="https://i.imgur.com/TlLgbbk.png" alt="Facebook" style="width:40px; height:40px;">
+  </a>
+</div>
+
+</footer>
+
+<script>
+const sidebar = document.querySelector('.sidebar');
+const toggleBtn = document.getElementById('sidebarToggle');
+toggleBtn.addEventListener('click', () => { sidebar.classList.toggle('show'); });
+</script>
+
+</body>
+</html>
